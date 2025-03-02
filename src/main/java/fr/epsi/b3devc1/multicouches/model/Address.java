@@ -16,7 +16,6 @@ public class Address {
     private String zipCode;
     private String city;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

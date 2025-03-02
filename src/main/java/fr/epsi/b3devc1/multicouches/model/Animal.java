@@ -1,7 +1,6 @@
 package fr.epsi.b3devc1.multicouches.model;
 
 import jakarta.persistence.*;
-
 import java.util.Date;
 
 @Entity
@@ -19,7 +18,6 @@ public abstract class Animal {
     @JoinColumn(name = "petstore_id")
     private PetStore petStore;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

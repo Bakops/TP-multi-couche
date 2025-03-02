@@ -17,7 +17,7 @@ public class PetStore {
     @JoinColumn(name = "address_id")
     private Address address;
 
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }

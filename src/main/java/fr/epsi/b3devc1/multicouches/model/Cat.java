@@ -8,7 +8,7 @@ public class Cat extends Animal {
 
     private String chipId;
 
-    // Getters and Setters
+
     public String getChipId() {
         return chipId;
     }

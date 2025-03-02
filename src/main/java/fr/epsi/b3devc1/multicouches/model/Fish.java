@@ -12,7 +12,6 @@ public class Fish extends Animal {
     @JoinColumn(name = "petstore_id")
     private PetStore petStore;
 
-    // Getters and Setters
 
     public FishLivEnv getLivingEnv() {
         return livingEnv;

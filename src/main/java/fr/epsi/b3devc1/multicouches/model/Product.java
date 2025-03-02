@@ -20,7 +20,7 @@ public class Product {
     @JoinColumn(name = "petstore_id")
     private PetStore petStore;
 
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }
