@@ -13,17 +13,10 @@ public class Fish extends Animal {
     private PetStore petStore;
 
 
-    public FishLivEnv getLivingEnv() {
-        return livingEnv;
-    }
-
     public void setLivingEnv(FishLivEnv livingEnv) {
         this.livingEnv = livingEnv;
     }
 
-    public PetStore getPetStore() {
-        return petStore;
-    }
 
     public void setPetStore(PetStore petStore) {
         this.petStore = petStore;
